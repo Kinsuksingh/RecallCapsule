@@ -160,7 +160,11 @@ const LoginComponent = ({ onSuccess }) => {
           <Lock size={32} />
         </IconWrapper>
         <Title>Access Required</Title>
-        <Subtitle>Please enter your 4-digit PIN to access this area.</Subtitle>
+        <Subtitle>
+          Please enter your 4-digit PIN to access this area.
+          <br /><br />
+          <span style={{ color: 'var(--primary)', fontWeight: 'bold' }}>Demo PIN: 1234</span>
+        </Subtitle>
 
         <PinContainer>
           {pin.map((digit, index) => (
