@@ -1,0 +1,35 @@
+[
+  {
+    "id": "lab1",
+    "title": "Projectile Motion Simulator",
+    "subject": "Physics",
+    "difficulty": "Beginner",
+    "duration": "30 mins",
+    "description": "Adjust angles and velocities to observe how gravity and air resistance affect projectile trajectories.",
+    "color": "#3b82f6",
+    "image": "/labs/lab_projectile.png",
+    "lightColor": "#dbeafe"
+  },
+  {
+    "id": "lab2",
+    "title": "Electromagnetic Induction",
+    "subject": "Physics",
+    "difficulty": "Intermediate",
+    "duration": "35 mins",
+    "description": "Move magnets through coils to generate electricity and visualize Faraday's Law in action.",
+    "color": "#3b82f6",
+    "image": "/labs/lab_electro.png",
+    "lightColor": "#dbeafe"
+  },
+  {
+    "id": "lab3",
+    "title": "Chemical Reactions and Equations",
+    "subject": "Chemistry",
+    "difficulty": "Beginner",
+    "duration": "30 mins",
+    "description": "Experiment with different chemical reactions to observe the formation of new substances.",
+    "color": "#14b8a6",
+    "image": "/labs/lab_chem.png",
+    "lightColor": "#ccfbf1"
+  }
+]

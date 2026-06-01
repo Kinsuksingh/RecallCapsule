@@ -1,0 +1,101 @@
+[
+  {
+    "id": "photosynthesis",
+    "title": "Life Processes: Photosynthesis",
+    "topic": "Biology",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Master the complete concept of photosynthesis with storytelling, analogies, deep explanations, quizzes, and memory tricks.",
+    "color": "#10b981"
+  },
+  {
+    "id": "reflection-refraction",
+    "title": "Light: Reflection and Refraction",
+    "topic": "Physics",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Understand the laws of reflection and refraction with interactive light ray simulators.",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "chemical-reactions",
+    "title": "Chemical Reactions and Equations",
+    "topic": "Chemistry",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Learn how to balance chemical equations and identify different types of reactions.",
+    "color": "#14b8a6"
+  },
+  {
+    "id": "nationalism-in-india",
+    "title": "Nationalism in India",
+    "topic": "History",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Explore the Indian independence movement, Non-Cooperation, and Civil Disobedience.",
+    "color": "#f97316"
+  },
+  {
+    "id": "control-and-coordination",
+    "title": "Control and Coordination",
+    "topic": "Biology",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Dive into the human brain, nervous system, and plant hormones.",
+    "color": "#10b981"
+  },
+  {
+    "id": "human-eye",
+    "title": "The Human Eye and Colourful World",
+    "topic": "Physics",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Discover how the eye works, defects of vision, and dispersion of light through a prism.",
+    "color": "#3b82f6"
+  },
+  {
+    "id": "acids-bases-salts",
+    "title": "Acids, Bases and Salts",
+    "topic": "Chemistry",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Test pH levels and understand the properties of various acids and bases.",
+    "color": "#14b8a6"
+  },
+  {
+    "id": "nationalism-in-europe",
+    "title": "The Rise of Nationalism in Europe",
+    "topic": "History",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Understand the French Revolution and the making of modern European nations.",
+    "color": "#f97316"
+  },
+  {
+    "id": "quadratic-equations",
+    "title": "Quadratic Equations",
+    "topic": "Mathematics",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Master the quadratic formula, factorization, and completing the square methods.",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "trigonometry",
+    "title": "Introduction to Trigonometry",
+    "topic": "Mathematics",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Explore sine, cosine, tangent, and their applications in solving real-world height and distance problems.",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "arithmetic-progressions",
+    "title": "Arithmetic Progressions",
+    "topic": "Mathematics",
+    "grade": "Class 10",
+    "book": "NCERT",
+    "description": "Learn to find the nth term and the sum of the first n terms of an AP.",
+    "color": "#8b5cf6"
+  }
+]
