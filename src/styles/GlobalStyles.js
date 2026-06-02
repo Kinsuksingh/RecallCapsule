@@ -20,6 +20,16 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    font-size: 100%;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
   body {
     font-family: 'Kite One', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: var(--background);

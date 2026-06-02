@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mic, MicOff, PhoneOff, User } from 'lucide-react';
@@ -20,10 +19,8 @@ const Overlay = styled(motion.div)`
 
 const ModalCard = styled(motion.div)`
   background: var(--white);
-  width: 90%;
-  max-width: 450px;
-  height: 80vh;
-  max-height: 700px;
+  width: 85%;
+  max-width: 400px;
   border-radius: 32px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -39,7 +36,7 @@ const Header = styled.div`
 `;
 
 const Title = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--text);
   margin-bottom: 4px;
 `;
@@ -51,11 +48,11 @@ const Subtitle = styled.div`
 `;
 
 const VisualizerContainer = styled.div`
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 30px 0;
 `;
 
 const pulseAnimation = keyframes`
@@ -66,8 +63,8 @@ const pulseAnimation = keyframes`
 
 const CircleWave = styled.div`
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: ${props => props.$isAi ? 'rgba(59, 130, 246, 0.2)' : 'rgba(34, 197, 94, 0.2)'};
   z-index: 1;
@@ -79,8 +76,8 @@ const CircleWave = styled.div`
 `;
 
 const AvatarCircle = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: var(--background);
   border: 4px solid ${props => props.$isAi ? '#3b82f6' : '#22c55e'};
@@ -94,7 +91,7 @@ const AvatarCircle = styled.div`
 
 const TranscriptArea = styled.div`
   padding: 20px;
-  height: 120px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -115,7 +112,7 @@ const StatusText = styled(motion.div)`
 
 
 const ControlsContainer = styled.div`
-  padding: 30px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -150,8 +147,6 @@ const CallModal = ({ chat, onClose }) => {
     isListening,
     isThinking,
     isSpeaking,
-    currentUserText,
-    currentAiText,
     error,
     startListening,
     stopInteraction
@@ -198,7 +193,7 @@ const CallModal = ({ chat, onClose }) => {
             <CircleWave $active={isAnySpeaking} $isAi={isSpeaking || isThinking} $delay="1.2s" />
             
             <AvatarCircle $isAi={isSpeaking || isThinking}>
-              <User size={48} color={isSpeaking || isThinking ? '#3b82f6' : (isListening ? '#22c55e' : 'var(--text-light)')} />
+              <User size={38} color={isSpeaking || isThinking ? '#3b82f6' : (isListening ? '#22c55e' : 'var(--text-light)')} />
             </AvatarCircle>
           </VisualizerContainer>
 
@@ -226,7 +221,7 @@ const CallModal = ({ chat, onClose }) => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              {!isListening ? <MicOff size={28} /> : <Mic size={28} />}
+              {!isListening ? <MicOff size={20} /> : <Mic size={20} />}
             </ControlButton>
             
             <ControlButton 
@@ -235,7 +230,7 @@ const CallModal = ({ chat, onClose }) => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <PhoneOff size={28} />
+              <PhoneOff size={20} />
             </ControlButton>
           </ControlsContainer>
         </ModalCard>
